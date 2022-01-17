@@ -17,6 +17,7 @@ $(document).ready(function () {
     // и не по его дочерним элементам
     ) {
       categories.removeClass("active");
+      btnCategories.removeClass("active");
     }
   });
 }); // accordion
